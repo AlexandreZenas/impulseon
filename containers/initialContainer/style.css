@@ -1,0 +1,26 @@
+@import url(../../components/btn-getClient/style.css);
+
+section#initial-sct{
+    padding-top: 7%;
+    display: flex;
+    position: relative;
+    z-index: 999;
+}
+/* titles and redline */
+#initial-sct .initial-redline {
+    width: 35%;
+    padding: 2% 0 0 4%;
+}
+div.redline-title h1{
+    font-size: 4.6em;
+    margin: 0;
+    font-weight: 300;
+}
+div.redline-title h1.h1Logo{
+    font-weight: 700;
+}
+div.redline-p p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding-bottom: 25px;
+}

@@ -1,0 +1,50 @@
+/* right */
+.cards-down div.right-card{
+    width: 48.5%;
+    height: 100%;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    transform: translate3d(-5%, -6%, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg);   
+    transition: transform 1s ease;
+}
+    .right-card > img{
+        object-fit: cover;
+        border-radius: 5%;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 100%;
+        z-index: 1;
+        backdrop-filter: blur(10px);
+        width: 100%;
+    }
+    /* screenImage */
+    .right-card div.screenImage{
+        z-index: 999;
+        position: relative;
+        height: 90%;
+        margin: 0 4%;
+        width: 40%;
+    }  
+        .screenImage img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 6%;
+        }
+    /* Component List */
+    .right-card div.componentsList{
+        z-index: 999;
+        position: relative;
+        height: 90%;
+        width: 60%;
+        overflow: auto;
+        margin-right: 1%;
+    }  
+        .componentsList img{
+            padding-bottom: 7%;
+            width: 100%;
+        }  
+
+

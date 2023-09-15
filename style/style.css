@@ -1,0 +1,30 @@
+@import url(../containers/navBar/style.css);/* NavBar */
+@import url(../containers/initialContainer/style.css);/* initialContainer */
+@import url(../components/bg-Points/style.css);/*background*/
+@import url(../components/colorfulBubble/style.css);/*background*/
+@import url(../components/cards/style.css);/*cards*/
+@import url(../components/scrollbar/style.css);/*Page scrollbar*/
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0A0A0A;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;    
+}
+/* body{
+    background-image: url(../media/bg.svg), linear-gradient(#000000, #3d3d3d);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+} */
+p, a, h1, h2, h3, h4, h5{
+    color: #fff;
+}
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+

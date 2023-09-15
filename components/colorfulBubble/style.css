@@ -1,0 +1,21 @@
+#bgColorfulBubble{
+    width: 80vw;
+    filter: blur(89.16474914550781px);
+    position: fixed;
+    z-index: 1;
+}
+#bgColorfulBubble img{
+  position: fixed;
+  width: 80%;
+  animation: bgcollor 20s linear infinite;
+  stroke-width: 1px;
+  stroke: #000;
+}
+@keyframes bgcollor {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg);
+  }
+  50%{
+  transform: translate(50%, 0%) rotate(-30deg);
+  }
+}

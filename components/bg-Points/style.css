@@ -1,0 +1,17 @@
+#bgPoints{
+    position: fixed;
+    height: 100vh;
+    top: 0; 
+    z-index: 1;
+}
+    #bgPoints img{
+        height: 100vh;
+        width: 100vw;
+        opacity: 0.2;
+        top: 0;
+        left: 20;
+        object-fit: cover;
+        object-position: 10% 50%;
+        max-width: 100%;
+        z-index: 1;
+    }

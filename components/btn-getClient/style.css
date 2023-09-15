@@ -1,0 +1,49 @@
+div.getClient-btn{
+    width: 220px;
+    height: 60px;    
+    border-radius: 1em;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 1rem;  
+    justify-content: center;  
+    position: relative;
+}
+.getClient-btn div.background-btn{
+  height: 66.6%;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(150deg, #05A4FE 20%, #000AFF, #3100BD);
+  transform: rotate(0deg);
+  animation: animationHover 10s ease infinite;
+  animation-fill-mode: both;
+}
+
+.getClient-btn button{
+    width: calc(100% - 2px);
+    height: calc(60px - 2px);
+    border:1px solid transparent;
+    background-color:black;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: 100;
+    cursor: pointer;
+    z-index: 999;
+    transition: 1s;
+}
+.getClient-btn button:hover{
+  transform: scale(0.98);
+  transition: 1s;
+}
+
+@keyframes animationHover {
+    0%{
+        transform: rotate(5deg);  
+    }
+    50%{
+        transform: rotate(185deg);  
+    }
+    100%{
+        transform: rotate(365deg);    
+     }
+}
