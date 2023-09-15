@@ -35,6 +35,9 @@ div.getClient-btn{
   transform: scale(0.98);
   transition: 1s;
 }
+.getClient-btn button a{
+    text-decoration: none;
+}
 
 @keyframes animationHover {
     0%{
