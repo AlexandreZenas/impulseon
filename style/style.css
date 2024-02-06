@@ -25,6 +25,20 @@ p, a, h1, h2, h3, h4, h5{
 main{
     max-width: 1280px;
     margin: 0 auto;
+} 
+.section-mobile{
+    display: none;
 }
+@media screen and (max-width: 992px){
+    section#initial-sct{
+        display: none;
+    }
+    .section-mobile{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
 
-
+    }
+}

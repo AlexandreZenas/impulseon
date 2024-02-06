@@ -25,7 +25,6 @@ section#initial-sct div.initial-cards:hover div,div.initial-cards:hover img{
 /* cards Up */
 .initial-cards div.cards-up {
     width: 100%;
-    padding: 0 20% 0 2%;
 }
     div.cards-up img {
         padding: 0 2%;
