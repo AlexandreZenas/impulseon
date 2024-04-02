@@ -1,0 +1,83 @@
+.cards-down div.left-card{
+    width: 48%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transform: translate3d(32%, -8%, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg);
+    transition: transform 1s ease;
+}
+    div.left-card > img{
+        object-fit: cover;
+        border-radius: 5%;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 100%;
+        z-index: 1;
+        backdrop-filter: blur(10px);
+        width: 100%;
+    }
+        /* screenColor */
+        .left-card div.screenColor{
+            z-index: 99;
+            position: relative;
+            height: 90%;
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }  
+            .screenColor div.Screen-Color{
+                background-color: #9064DB;
+                height: 50%;
+            }
+            .screenColor div{
+                width: 90%;
+                height: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(64, 65, 107,0.5);
+                border-radius: 5%;
+            }
+            .screenColor p{
+                font-size: 0.65rem;
+                font-weight: 200;
+            }
+            .screenColor span{
+                font-weight: 500;
+            }
+    /* phoneCard e selector Color */
+    .left-card div.phoneCard{
+        width: 45%;
+        z-index: 99;
+        height: 90%;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }  
+        .phoneCard > img{
+            height: 100%;
+            right: 0;
+            position: absolute;
+            object-fit: contain;
+            object-position: right;
+            z-index: 1;
+        }  
+        .phoneCard div.select-color{
+            height: 10%;
+            width: 75%;
+            padding: 0 3% 10% 0;
+            position: relative;
+            display: flex;
+            text-align: end;
+            letter-spacing: -3px;
+            z-index: 99;
+            align-items: center;
+            gap: 1px;
+        }  
+            .select-color img{
+                height: 13px;
+            }  

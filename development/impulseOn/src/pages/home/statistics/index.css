@@ -1,0 +1,86 @@
+#Statistics {
+    position: relative;
+    z-index: 999;
+    margin: 8% auto;
+}
+.container-statistics{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+div.statistic-left{
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+div.statistic-left, div.statistic-right{
+    max-width: 25%;
+    opacity: 0;
+}
+    div.statistic-left h1, div.statistic-right h1{
+        font-size: 4rem;
+        margin: 0;
+        background: linear-gradient(to bottom, #6A6CFF, #BD71FF);
+        -webkit-background-clip: text; /* Define a área de clipping para o texto */
+        -webkit-text-fill-color: transparent; /* Torna o texto transparente */
+    }
+    div.statistic-left h4, div.statistic-right h4{
+        color: #232323;
+        font-size: 1rem;
+        margin: 0;
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+    div.statistic-left p, div.statistic-right p{
+        color: #969696;
+        font-size: 1rem;
+        line-height: 2;
+        margin: 0;
+        max-width: 80%;
+        /* text-align: right; */
+        /* letter-spacing: -1px; */
+        font-weight: 300;
+    }
+
+div.statistic-middle{
+    max-width: 50%;
+    opacity: 0;
+}
+div.statistic-middle h1{
+    font-size: 18rem;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(to right, #1fe8f2,#1fe8f2,#1fb3f2, #5064f9,#5064f9, #BD71FF, #BD71FF, #BD71FF);
+    -webkit-background-clip: text; /* Define a área de clipping para o texto */
+    -webkit-text-fill-color: transparent; /* Torna o texto transparente */
+}
+div.statistic-middle h4{
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: -36px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    text-align: center;
+}
+div.statistic-middle p{
+    text-align: center;
+    font-size: .75rem;
+    color: #828282;
+}
+div.statistic-animation1{
+    animation:fade-in 1.5s cubic-bezier(.39,.575,.565,1.000) both;
+    opacity: 1;
+}
+div.statistic-animation2{
+    animation:fade-in 1.5s cubic-bezier(.39,.575,.565,1.000)  both;
+    opacity: 1;
+}
+div.statistic-animation3{
+    animation:fade-in 1.5s cubic-bezier(.39,.575,.565,1.000)  both;
+    opacity: 1;
+}
+@keyframes fade-in{0%{opacity:0}100%{opacity:1}}

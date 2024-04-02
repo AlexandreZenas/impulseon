@@ -1,0 +1,62 @@
+div.cards-banner{
+    width: 100%;
+    height: 480px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 0 0 5%;
+}
+div.cards-banner:hover div,div.cards-banner:hover img{
+    transform: translate3d(0%, 00%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
+}
+
+.cards-banner div.cards-up{
+    width: 100%;
+}
+    div.cards-up img{
+        padding: 0 2%;
+        height: 116px;
+    }
+    .PageWebflowVector{
+        transform: translate3d(0%, 20%, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg); transform-style: preserve-3d;
+        transition: transform 1s ease;
+    }
+    .PageSectionVector{
+        transform: translate3d(0%, 12%, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg); transform-style: preserve-3d;
+        transition: transform 1s ease;
+    }
+.cards-banner div.cards-middle{
+    padding-bottom: 1%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 1;    
+    transform: translate3d(0.00168px, 7px, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg); transform-style: preserve-3d;
+    transition: transform 1s ease;
+}
+    div.cards-middle img{
+        width: 90%;
+        padding-right: 1%;
+        backdrop-filter: blur(10px);
+    }
+
+.cards-banner div.cards-down{
+    width: 100%;
+    height: 40%;
+    padding:  0 0 8% 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.right-card{
+    width: 48%;
+}
+.left-card img , .right-card img{
+    width: 100%;
+}

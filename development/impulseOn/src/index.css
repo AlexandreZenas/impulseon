@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0A0A0A;
+  font-family: 'Inter','Roboto', sans-serif;
+}
+p, a, h1, h2, h3, h4, h5{
+  color: #FFFFFF;
+}
+.container-992px{
+  /* escopo global */
+  max-width: 992px;
+  display: flex;
+  margin: 0 auto;
+}
+.container-1140px{
+  /* escopo global */
+  max-width: 1140px;
+  display: flex;
+  margin: 0 auto;
+}
+/* scrollbar */
+::-webkit-scrollbar {
+  background: #817F86;
+  width: 3px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #817F86;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #2F2E32;
+  background: #555;
+  border-radius: 10px;
+}
+
