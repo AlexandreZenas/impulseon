@@ -1,0 +1,53 @@
+section#Banner{
+    padding-top: 7%;
+    position: relative;
+    z-index: 999;
+}
+#Banner div.bgPoints{
+    position: absolute;
+    height: 100vh;
+    top: 0; 
+    z-index: 1;
+}
+.banner-container{
+    position: relative;
+    z-index: 999;
+}
+    div.bgPoints img{
+        height: 100vh;
+        width: 100vw;
+        opacity: 0.2;
+        top: 0;
+        left: 20;
+        object-fit: cover;
+        object-position: 10% 50%;
+        max-width: 100%;
+        z-index: 1;
+    }
+
+
+
+    .banner-container div.titles-banner{
+        width: 35%;
+        padding: 0 0 5% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+        div.titles-banner h1{
+            font-size: 2.8rem;
+            margin: 0;
+            font-weight: 300;
+        }
+        div.titles-banner span{
+            font-weight: 700;
+            font-size: 3.7rem;
+        }
+        div.titles-banner p{
+            font-size: 1rem;
+            font-weight:  300;
+            padding-bottom: 25px;
+            max-width: 320px;
+            /* line-height: 24px; */
+            letter-spacing: 1px;
+        }
