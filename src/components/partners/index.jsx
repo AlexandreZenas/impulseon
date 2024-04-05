@@ -1,7 +1,7 @@
 import './index.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation, FreeMode } from 'swiper/modules';
-
+//vaaaa
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/free-mode';
