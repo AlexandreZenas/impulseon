@@ -1,79 +1,30 @@
-/* .carousel{
-  margin: 0 auto;
-  max-width: 600px;
-  border: 1px solid rgb(255, 255, 255);
-  height: 120px;
-
-  display: flex;
-  gap: 8px;
-}
-.box1{
-  background-color: red;
-  width: 25%;
-  animation: carousel 12s linear 0s infinite running  forwards;
-}
- @keyframes carousel {
-    0% {
-      transform: translate(-100%, 0%) rotate(0deg);
-    }
-    100%{
-    transform: translate(800px, 0%) ;
-    }
-  } */
-  /* .carousel-container {
-    overflow: hidden;
-    margin: 0 auto;
-    max-width: 600px;
-    height: 200px; 
-  }
-  
-  .carousel {
-    display: flex;
-    gap: 8px;
-    width: max-content;
-    animation: deslizar 10s linear infinite;
-    height: 100%;
-    align-items: center;
-  }
-  
-  .carousel img {
-    width: 100%;
-    height: auto;
-  }
-  
-  @keyframes deslizar {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  } */
-  
 
 
 .swiper {
     width: 100%;
-    height:200px;
+    height:64px;
     display: flex;
     transition: 4s;
+    margin-top: 25px;
   }
   
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
     transition: 4s;
 
+    border-right: 1px solid #0E0E0E;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .swiper-slide img {
-    display: block;
-    width: 100%;
+    align-items: center;
+    text-align: center;
+    width: 50%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
     transition: 4s;
   }
