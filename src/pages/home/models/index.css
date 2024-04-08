@@ -1,0 +1,72 @@
+#Models{
+    width: 99.8vw;
+    background-color: #131313;
+    margin: 200px 0;
+}
+.container-models{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    overflow: hidden;
+}
+    .wrapper-titles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 4%;
+        gap: 16px;
+    }
+    .wrapper-titles h1{
+        font-size: 3.5rem;
+        font-weight: 500;
+        margin: 0;
+        background: linear-gradient(to right, #6A6CFF, #BD71FF);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .wrapper-titles p{
+        font-size: 1.5rem;
+        font-weight: 200;
+        margin: 0;
+    }
+.container-models div.carousel{
+    display: flex;
+    width: calc(100% + 256px);
+    height: 256px;
+    padding: 0 12px;
+    gap: 24px;
+    position: relative;
+    transition: transform 0.5s ease-out;
+    transform: translate(-0, -0%) translateX(-0);
+}   
+div.carousel:hover{
+    /* transform: translate(calc((256px + 24px) / 2), 0px); *//* animação pra direita*/
+    /* transform: translate(calc((-256px + -24px) ), 0px);  animação pra esquerda */
+    /* transition: 2s; */
+}
+.container-models > div.container-carousel > :nth-child(2) {
+    transform: translate(-280px, 0);
+    margin: 24px 0;
+} 
+div.carousel > div.wrapper-img{
+    height: 100%;
+    width: 25%;
+}    
+div.wrapper-img:hover{
+    transform: translate(0, -20px);
+    transition: .5s;
+}
+div.wrapper-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 24px;
+}    
+div.wrapper-img img:hover{
+    object-position: bottom;
+    transition: 30s;
+}    

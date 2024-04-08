@@ -3,7 +3,7 @@ import Banner from './banner';
 import { Navbar } from '../../components/navbar';
 import { Services } from './services';
 import { Statistics } from './statistics';
-
+import { Models } from './models';
 function Home() {
 
   return (
@@ -12,6 +12,7 @@ function Home() {
       <Banner></Banner> 
       <Services></Services>
       <Statistics></Statistics>
+      <Models></Models>
     </main>
   )
 }
