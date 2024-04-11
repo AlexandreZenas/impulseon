@@ -1,0 +1,43 @@
+#About{
+    
+}
+#About .container-about{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+}
+.container-about div.wrapper-title{
+    display: flex;
+    justify-content: space-between;
+}
+.container-about div.wrapper-title h2{
+    font-size: 9rem;
+    color: #232323;
+    margin: 0;
+}
+.container-about div.wrapper-title h2 strong{
+    background: linear-gradient(to bottom, #6A6CFF, #BD71FF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container-about div.wrapper-title h1{
+
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: end;
+}
+.container-about div.wrapper-title h1 strong.bold{
+    font-weight: 900;
+}
+.container-about div.wrapper-title h1 strong.gradient{
+    background: linear-gradient(to bottom, #6A6CFF, #BD71FF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container-about div.wrapper-text p{
+    color: #828282;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+}

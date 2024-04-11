@@ -1,0 +1,31 @@
+#CallToAction{
+    background-image: url('images/bg-retangles/background-images.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5% 0 15% 0;
+}
+div.container-callToAction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-callToAction div.wrapper-span{
+
+}
+    .container-callToAction div.wrapper-span span{
+        font-size: .75rem;
+        font-weight: 500;
+        color: #6A6CFF;
+        letter-spacing: 2px;
+
+    }
+.container-callToAction div.wrapper-title {
+    max-width:700px;
+}
+    .container-callToAction div.wrapper-title h1{
+        font-size: 3rem;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-align: center;
+    }

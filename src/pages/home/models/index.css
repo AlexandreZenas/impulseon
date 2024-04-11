@@ -1,7 +1,6 @@
 #Models{
     width: 99.8vw;
     background-color: #131313;
-    margin: 200px 0;
 }
 .container-models{
     width: 100%;
@@ -68,5 +67,5 @@ div.wrapper-img img{
 }    
 div.wrapper-img img:hover{
     object-position: bottom;
-    transition: 30s;
+    transition: 30s linear;
 }    
