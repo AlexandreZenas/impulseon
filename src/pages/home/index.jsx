@@ -7,6 +7,7 @@ import { Models } from './models';
 import { CallToAction } from './call-to-action';
 import { Steps } from './steps';
 import { About } from './about';
+import { OurExperience } from './our-experience';
 function Home() {
 
   return (
@@ -18,7 +19,9 @@ function Home() {
       <CallToAction></CallToAction>
       <Models></Models>
       <Steps></Steps>
+      <OurExperience></OurExperience>
       <About></About>
+
     </main>
   )
 }

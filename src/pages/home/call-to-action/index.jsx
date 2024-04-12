@@ -8,7 +8,7 @@ export function  CallToAction() {
                     <span>EXPERIENCE SMARTER DIGITAL WITH STORM BRAIN</span>
                 </div>
                 <div className='wrapper-title'>
-                    <h1>Mude o Jogo: Impulsione seu negócio além dos limites.</h1>
+                    <h1>Mude o Jogo:<br></br> Impulsione seu negócio além dos limites.</h1>
                 </div>
                 <ButtonCta></ButtonCta>
             </div>

@@ -25,10 +25,12 @@ export function Partners() {
           classNameName="mySwiper"
         >
         <SwiperSlide><img src="images/partners/shopify.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="images/partners/shopify.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="images/partners/shopify.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="images/partners/shopify.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="images/partners/shopify.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="images/partners/google.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="images/partners/woocommerce.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="images/partners/meta.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="images/partners/elementor.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="images/partners/wordpress.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="images/partners/hostgator.png" alt="" /></SwiperSlide>
       </Swiper>
     </div>
   )
