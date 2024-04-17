@@ -41,3 +41,23 @@
     font-weight: 400;
     text-align: justify;
 }
+
+@media screen and (max-width: 1024px) {
+    .container-about div.wrapper-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 540px) {
+    #About  { 
+        padding:96px 2%;
+    }
+    .container-about div.wrapper-title h1 {
+        font-size: 1.8rem;
+    }
+    .container-about div.wrapper-text p {
+        font-size: 1rem;
+    }
+    
+}

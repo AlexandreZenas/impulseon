@@ -25,6 +25,7 @@ div.our-steps{
         letter-spacing: 2px;
         text-align: left;
         margin: 0;
+        width: 100%;
     }
     div.our-steps div.wrapper-text{
         max-width: 80%;
@@ -66,3 +67,24 @@ div.steps-content{
         font-size: 1.2rem;
         font-weight: 400;
     }
+@media screen and (max-width: 1024px) {
+    div.container-steps{
+        flex-direction: column;
+        gap: 48px;
+    }
+    div.our-steps, .our-steps div.wrapper-title h1, .our-steps div.wrapper-text p{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    div.our-steps div.wrapper-text, div.our-steps div.wrapper-text p{
+        width: 100%;
+        max-width: 100%;
+    }
+    div.steps-content {
+        flex-direction: column;
+    }
+    div.steps-numbering{
+        width: 90%;
+    }
+}

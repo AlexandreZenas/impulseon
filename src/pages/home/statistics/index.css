@@ -3,22 +3,35 @@
     z-index: 999;
     margin: 8% auto;
 }
-.container-statistics{
-    display: flex;
+div.container-statistics{
+    /* grid-gap: 10px; */
+    display: grid;
     gap: 8px;
+    grid-template-areas:
+    "left-statistic middle-statistic middle-statistic right-statistic"
+    "left-statistic middle-statistic middle-statistic right-statistic"
+    "left-statistic middle-statistic middle-statistic right-statistic"
+    "left-statistic middle-statistic middle-statistic right-statistic";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    opacity: 0;
     align-items: center;
-    justify-content: center;
+}
+div.container-statistics > :nth-child(1){
+    grid-area: left-statistic;
+    width: 100%;
+}
+div.container-statistics > :nth-child(2){
+    grid-area: middle-statistic;
+}
+div.container-statistics > :nth-child(3){
+    grid-area: right-statistic;
 }
 div.statistic-left{
     text-align: end;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    
-}
-div.statistic-left, div.statistic-right{
-    max-width: 25%;
-    opacity: 0;
+    align-items: flex-end;    
 }
     div.statistic-left h1, div.statistic-right h1{
         font-size: 4rem;
@@ -45,10 +58,6 @@ div.statistic-left, div.statistic-right{
         font-weight: 300;
     }
 
-div.statistic-middle{
-    max-width: 50%;
-    opacity: 0;
-}
 div.statistic-middle h1{
     font-size: 18rem;
     margin: 0;
@@ -71,16 +80,42 @@ div.statistic-middle p{
     font-size: .75rem;
     color: #828282;
 }
-div.statistic-animation1{
+.statistic-animation{
     animation:fade-in 1.5s cubic-bezier(.39,.575,.565,1.000) both;
     opacity: 1;
 }
-div.statistic-animation2{
-    animation:fade-in 1.5s cubic-bezier(.39,.575,.565,1.000)  both;
-    opacity: 1;
-}
-div.statistic-animation3{
-    animation:fade-in 1.5s cubic-bezier(.39,.575,.565,1.000)  both;
-    opacity: 1;
-}
+
 @keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+@media screen and (max-width: 1024px) {
+    div.container-statistics{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+            grid-template-areas:
+            "middle-statistic middle-statistic"
+            "middle-statistic middle-statistic"
+            "left-statistic right-statistic";
+
+    }
+    div.statistic-left, div.statistic-right{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    div.statistic-middle h1 {
+        font-size: 15rem;
+    }
+}
+@media screen and (max-width:662px) {
+    div.container-statistics{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+            grid-template-areas:
+            "middle-statistic"
+            "middle-statistic"
+            "left-statistic"
+            "right-statistic";
+            max-width: 92%;
+    }
+}

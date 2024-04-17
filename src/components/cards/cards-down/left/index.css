@@ -43,6 +43,7 @@
             }
             .screenColor p{
                 font-size: 0.65rem;
+                max-width: 100px;
                 font-weight: 200;
             }
             .screenColor span{
@@ -81,3 +82,15 @@
             .select-color img{
                 height: 13px;
             }  
+
+            @media screen and (max-width: 660px) {
+                .screenColor p{
+                    font-size: 0.4rem;
+                    max-width: 80px;
+
+                }
+                .phoneCard div.select-color{
+                    width: 9%;
+                    justify-content: end;
+                }  
+            }

@@ -7,4 +7,7 @@ div.container-services{
     z-index: 99;
     position: relative;
     gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }

@@ -25,11 +25,13 @@
         background: linear-gradient(to right, #6A6CFF, #BD71FF);
         background-clip: text;
         -webkit-text-fill-color: transparent;
+        text-align: center;
     }
     .wrapper-titles p{
         font-size: 1.5rem;
         font-weight: 200;
         margin: 0;
+        text-align: center;
     }
 .container-models div.carousel{
     display: flex;
@@ -69,3 +71,8 @@ div.wrapper-img img:hover{
     object-position: bottom;
     transition: 30s linear;
 }    
+@media screen and (max-width: 540px) {
+    .wrapper-titles h1{
+        font-size: 2.75rem;
+    }
+}

@@ -1,5 +1,7 @@
 #bgColorfulBubble{
     width: 80vw;
+    overflow-x: hidden;
+    height: 100%;
     top: 10%;
     filter: blur(89.16474914550781px);
     position: absolute;
@@ -24,7 +26,7 @@
 section#Services #bgColorfulBubble{
     width: 80vw;
     top: 20%;
-    height: 20px;
+    height: 100%;
     right: 0;
     filter: blur(89.16474914550781px);
     position: absolute;
@@ -48,3 +50,29 @@ section#Services #bgColorfulBubble img{
     transform: translate(100%, 0%) rotate(-30deg);
     }
   }
+@media screen and (max-width: 500px) {
+
+  section#Services #bgColorfulBubble img{
+    width: 200%;
+    height: 100%;
+    transform: scale(1.5);
+  }
+  @keyframes bgcollor-services {
+    0% {
+      transform: translate(0%, 0%) rotate(0deg);
+    }
+    50%{
+    transform: translate(10%, 0%) rotate(-30deg);
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  #bgColorfulBubble, section#Services #bgColorfulBubble {
+      width: 100vw;
+      filter: blur(30px);
+  }
+  #bgColorfulBubble img, section#Services #bgColorfulBubble img{
+    width: 100%;
+    filter: blur(20px);
+  }
+}

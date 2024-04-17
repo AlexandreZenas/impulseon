@@ -13,16 +13,30 @@ export function Partners() {
 
     <div className="container-1140px container-partners">
         <Swiper
-          slidesPerView={4}
+          slidesPerView={2}
           spaceBetween={30}
           loop={true}  
           freeMode={true}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+            },
+          }}
           autoplay={{
             delay: 1000,
             disableOnInteraction: false                  
           }}
           modules={[Autoplay, FreeMode, Pagination, Navigation]}
-          classNameName="mySwiper"
+          className="mySwiper"
         >
         <SwiperSlide><img src="images/partners/shopify.png" alt="" /></SwiperSlide>
         <SwiperSlide><img src="images/partners/google.png" alt="" /></SwiperSlide>

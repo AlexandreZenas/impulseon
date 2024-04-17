@@ -1,6 +1,6 @@
 div.cards-banner{
-    width: 100%;
-    height: 480px;
+    width: 55%;
+    height: 35vw;
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
@@ -9,7 +9,6 @@ div.cards-banner{
     align-content: space-between;
     flex-wrap: wrap;
     position: relative;
-    padding: 0 0 0 5%;
 }
 div.cards-banner:hover div,div.cards-banner:hover img{
     transform: translate3d(0%, 00%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
@@ -17,10 +16,12 @@ div.cards-banner:hover div,div.cards-banner:hover img{
 
 .cards-banner div.cards-up{
     width: 100%;
+    display: flex;
+    align-items: flex-start;
 }
     div.cards-up img{
         padding: 0 2%;
-        height: 116px;
+        width: 40%;
     }
     .PageWebflowVector{
         transform: translate3d(0%, 20%, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg); transform-style: preserve-3d;
@@ -48,15 +49,19 @@ div.cards-banner:hover div,div.cards-banner:hover img{
 .cards-banner div.cards-down{
     width: 100%;
     height: 40%;
-    padding:  0 0 8% 0;
     display: flex;
     justify-content: space-between;
     z-index: 2;
 }
-
 .right-card{
     width: 48%;
 }
 .left-card img , .right-card img{
     width: 100%;
+}
+@media screen and (max-width: 660px) {
+    div.cards-banner{
+        width: 90%;
+        height: 65vw;
+    }
 }

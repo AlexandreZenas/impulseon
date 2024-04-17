@@ -6,7 +6,7 @@ export function CardLeft(){
             <div className='screenColor'>
                 <div className='Screen-Color'></div>
                 <div>
-                    <p><span>Clique </span>nas paletas <br></br> de cores para mudar a <br></br> tela a cima</p>
+                    <p><span>Clique </span>nas paletas de cores para mudar a  tela a cima</p>
                 </div>
             </div>
             <div className='phoneCard'>

@@ -10,15 +10,12 @@ div.container-callToAction{
     flex-direction: column;
     align-items: center;
 }
-.container-callToAction div.wrapper-span{
-
-}
-    .container-callToAction div.wrapper-span span{
+    .container-callToAction div.wrapper-subtitle h4{
         font-size: .75rem;
         font-weight: 500;
         color: #6A6CFF;
         letter-spacing: 2px;
-
+        text-align: center;
     }
 .container-callToAction div.wrapper-title {
     max-width:700px;

@@ -8,11 +8,13 @@ function Banner() {
             <div className='bgPoints'>
                 <img src="images/bg.svg" alt="pontos flutuantes" />
             </div>
-            <div className='container-992px banner-container'>
+            <div className='container-1140px banner-container'>
                 <div className='titles-banner'>
-                    <div><h1>Agência digital<br></br><span>ImpulseOn</span></h1></div>
                     <div>
-                        <p>Especializados em desenvolvimento de sites e anúncios para internet. </p>
+                        <p>PROCURANDO UMA AGÊNCIA DIGITAL ?</p>
+                    </div>
+                    <div>
+                        <h1>Somos a força que impulsiona sua visibilidade na internet</h1>
                     </div>
                 </div>
                 <Cards></Cards>

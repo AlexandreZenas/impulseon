@@ -13,7 +13,7 @@ function Home() {
   return (
     <main>  
       <Navbar></Navbar>
-      <Banner></Banner> 
+      <Banner></Banner>
       <Services></Services>
       <Statistics></Statistics>
       <CallToAction></CallToAction>
@@ -21,7 +21,6 @@ function Home() {
       <Steps></Steps>
       <OurExperience></OurExperience>
       <About></About>
-
     </main>
   )
 }

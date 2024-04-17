@@ -10,7 +10,7 @@ export function  ServiceCard({title, text, link, index}) {
 
   function sliderScroll(){
      const retangulo = cardRef.current.getBoundingClientRect().top;
-    if((retangulo) < 500 && (retangulo) > -500 ){
+    if((retangulo) < 600 && (retangulo) > -500 ){
         setSliderAnimation(`service-card${index}`);
     }
 };
