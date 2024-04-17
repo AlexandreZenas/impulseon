@@ -1,20 +1,20 @@
 export const serviceDados = [
     {
-        title: 'Estrategia de Marca',
-        text: "Establish and solidifying industry leaders. Unlock your brand's potential. Creating an extension between a company and their audience.",
-        link: 'EXPLORE BRANDING',
+        title: 'Seu negócio online',
+        text: "Ter um site permite que você tenha presença na internet. Isso é crucial para os dias de hoje, já que muitas pessoas procuram por produtos e serviços online antes de fazer uma compra.",
+        link: 'QUERO TER UM SITE !',
         index: 1
     },
     {
-        title: 'Plataformas Web',
-        text: "Establish and solidifying industry leaders. Unlock your brand's potential. Creating an extension between a company and their audience.",
-        link: 'EXPLORE BRANDING',
+        title: 'No topo das pesquisas',
+        text: "Usamos técnicas de SEO e anúncios para aumentar a  visibilidade nos mecanismos de busca, aumentando o fluxo de usuários e a taxa de conversão do site. ",
+        link: 'QUERO ESTAR NO TOPO !',
         index: 2
     },
     {
-        title: 'Marketing Digital',
-        text: "Establish and solidifying industry leaders. Unlock your brand's potential. Creating an extension between a company and their audience.",
-        link: 'EXPLORE BRANDING',
+        title: 'Uma equipe ao seu dispor',
+        text: "Em nossa consultoria juntos desenvolvemos estratégias eficazes e personalizadas identificando de oportunidades até a execução de campanhas eficazes ",
+        link: 'QUERO UMA EQUIPE !',
         index: 3
     },
 ]

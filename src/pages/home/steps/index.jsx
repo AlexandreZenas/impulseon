@@ -16,7 +16,7 @@ export function Steps() {
                   <h1>Veja como a jornada do nosso trabalho é feita.</h1>
                 </div>
                 <div className='wrapper-text'>
-                  <p>Nosso processo é guiada pela transparência e profissionalismo, garantindo que você esteja sempre informado e confiante em nossa parceria.</p>
+                  <p>Nosso processo é guiado pela transparência e profissionalismo, garantindo que você esteja sempre informado e confiante em nossa parceria.</p>
                 </div>
                 <ButtonCta></ButtonCta>
             </div>
@@ -36,7 +36,7 @@ export function Steps() {
                 </div>
                 <div className='wrapper-texts'>
                   <h2>Desenvolvimento do projeto</h2>
-                  <p>Criamos efetivamente o projeto visual, levando em conta todas as informações coletadas até o momento. E após a aprovação do cliente, desenvolvemos o site.</p>
+                  <p>Criamos efetivamente o projeto visual, levando em conta todas as informações coletadas até o momento. E após a aprovação do cliente, desenvolvemos o website.</p>
                 </div>
               </div>
               <div className='steps-content'>

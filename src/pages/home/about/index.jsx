@@ -6,7 +6,8 @@ export function About() {
             <div className='container-992px container-about'>
                 <div className='wrapper-title'>
                     <h2><strong>Go</strong>.</h2>
-                    <h1>Na <strong className='bold'>ImpulseOn</strong> desafiamos os limites do marketing digital, impulsionando negócios <strong className='gradient'>além das expectativas</strong></h1>
+                    
+                    <h1>Na <strong className='bold'>ImpulseOn <img src="images/risk-colored.png" alt="" ></img></strong> desafiamos os limites do marketing digital, impulsionando negócios <strong className='gradient'>além das expectativas</strong></h1>
                 </div>
                 <div className='wrapper-text'>
                     <p>

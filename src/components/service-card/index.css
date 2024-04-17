@@ -26,7 +26,7 @@ div.service-content div.wrapper-title h2{
     font-size: 32px;
     font-weight: 400;
     max-width: 300px;
-    margin: 0;
+    margin-top  : 0;
     color: #DBDCE0;
 }
 .service-content div.wrapper-text {

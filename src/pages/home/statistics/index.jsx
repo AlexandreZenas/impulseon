@@ -10,7 +10,7 @@ export function Statistics(){
   
     function sliderScroll(){
        const retangulo = statisticsRef.current.getBoundingClientRect().top;
-      if((retangulo) < 250 && (retangulo) > -500 ){
+      if((retangulo) < 400 && (retangulo) > -500 ){
           setSliderAnimation('statistic-animation');
       }
   };
@@ -24,19 +24,19 @@ export function Statistics(){
         <section id='Statistics'>
            <div className={`container-1140px container-statistics ${sliderAnimation}`} ref={statisticsRef}>
             <div className='statistic-left'>
-                <h1>220+</h1>
-                <h4>REFERRED CLIENTS</h4>
-                <p>Clients recommend our team to their inner circle; our relationships are based on trust. This speaks volumes.</p>
+                <h1>46%</h1>
+                {/* <h4>REFERRED CLIENTS</h4> */}
+                <p>Das pessoas pesquisam por empresas locais. Hoje é crucial para as empresas ter um site para serem encontradas !!</p>
             </div>
             <div className='statistic-middle'>
-                <h1>1%</h1>
-                <h4>PRINCIPAL UM POR CENTO DE TODAS AS AGÊNCIAS DE MARKETING GLOBAL</h4>
-                <p>Clutch Global 1000 Winner • 2023 | 2022 | 2021</p>
+                <h1>90%</h1>
+                <h4>dos consumidores começam com uma pesquisa online.E estamos aqui para fazer justamente isso!</h4>
+                <p>ImpulseOn +10.000 leads • 2024 |2023 | 2022 </p>
             </div>
             <div className='statistic-right'>
-                <h1>220+</h1>   
-                <h4>REFERRED CLIENTS</h4>
-                <p>Clients recommend our team to their inner circle; our relationships are based on trust. This speaks volumes.</p>
+                <h1>450k</h1>   
+                {/* <h4>REFERRED CLIENTS</h4> */}
+                <p>Investidos em campanhas de publicidade online, estamos comprometidos em levar seu negócio ao próximo nível.</p>
             </div>
            </div>
            <Partners></Partners>

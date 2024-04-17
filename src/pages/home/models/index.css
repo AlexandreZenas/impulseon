@@ -76,3 +76,8 @@ div.wrapper-img img:hover{
         font-size: 2.75rem;
     }
 }
+@media screen and (max-width: 560px) {
+    .wrapper-titles p{
+        display: none;
+    }
+}
