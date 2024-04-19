@@ -7,11 +7,20 @@ export function Navbar(){
     <nav id='Navbar'>
         <div className='container-1140px container-navbar'>
             <div className='wrapper-logo'>
-                <h1><a href="#Banner">ImpulseOn</a></h1>
+                <a href="#Banner"><h1>Impulse</h1> 
+                <div className='powerOn'>
+                    <div className='On'></div>
+                </div>
+                <h2>N</h2>
+                </a>
             </div>
             <div className='navMenu'>
-                <a href="#Steps" >O que a Impulse faz</a>
-                <a href="#Services" >Benefícios</a>
+                <a href="#Steps" >O que a Impulse faz
+                    <div></div>
+                </a>
+                <a href="#Services" >Benefícios
+                <div></div>
+                </a>
             </div>
         </div>
     </nav>

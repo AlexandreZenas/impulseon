@@ -1,6 +1,7 @@
 import './index.css';
 import { Cards } from '../../../components/cards';
 import { ColorfulBubble } from '../../../components/colorfulBubble';
+import { ButtonCta } from '../../../components/button-cta';
 function Banner() {
     return(
         <section id='Banner'>
@@ -16,6 +17,7 @@ function Banner() {
                     <div>
                         <h1>Somos a força que impulsiona sua visibilidade na internet</h1>
                     </div>
+                    <ButtonCta></ButtonCta>
                 </div>
                 <Cards></Cards>
             </div>

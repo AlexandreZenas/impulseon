@@ -12,10 +12,46 @@ nav#Navbar{
     justify-content: space-between;
     z-index: 9999;
 }
-.container-navbar div.wrapper-logo h1 a {
+.container-navbar div.wrapper-logo a {
     text-decoration: none;
     padding: 0 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    gap: 4px;
 }
+.container-navbar div.wrapper-logo div.powerOn {
+    margin-top: 4px;
+    width: 2rem;
+    height: 1rem;
+    outline: 2px solid rgb(255, 255, 255) ;
+    border: 2px solid transparent;
+    border-radius: 24px;
+    position: relative;  
+    background: linear-gradient(to right,
+    rgba(47, 50, 253, 1),rgba(188, 112, 255, 0));
+}
+.container-navbar div.wrapper-logo div.On{
+    position: absolute;
+    top: 0;
+    width: calc(2rem / 2);
+    background-color: #fff;
+    height: 1rem;
+    border-radius: 24px;  
+    animation: atravesar .5s linear both;
+    transition: 1s;
+}
+.container-navbar div.wrapper-logo a > h2 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+@keyframes atravesar{
+    100%{
+      transform: translate(100%);
+      /* box-shadow: -16px 0px 50px rgb(255, 255, 255);  */
+    }
+  }
 .navMenu{
     display: flex;
     gap: 32px;
@@ -23,14 +59,36 @@ nav#Navbar{
     align-items: center;
     height: fit-content;
     width: fit-content;
-    padding: 4px 24px;
-    border: 1px solid rgba(200, 200, 200, 0.2);
-    border-radius: 8px;
-    backdrop-filter:  blur(100px);
+    padding: 0 24px;
 }
 .navMenu a{
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: .7em;
+    position: relative;    
+    text-transform: uppercase;
+}
+.navMenu a div{
+    position: absolute;
+    z-index: -1;
+    top: calc(-50% + 2px);
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: #BD71FF;
+    transition: 1s;  
+    animation: purble-ball 1s linear both;  
+}
+@keyframes purble-ball {
+    0%{
+        left: 50%;
+    }
+    100%{
+        left: -8px;
+    }
+}
+.navMenu a:hover div{
+    transition: 1s;
+    width: 100%;
 }
 .wrapper-bars {
     display: none;
