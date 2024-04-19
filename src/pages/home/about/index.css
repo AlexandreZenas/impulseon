@@ -9,6 +9,8 @@
 }
 .container-about div.wrapper-title{
     padding: 0 2%;
+    position: relative;
+
 }
 .container-about div.wrapper-title h2{
     font-size: 9rem;
@@ -16,10 +18,11 @@
     margin: 0;
     float: left;
 }
-.container-about div.wrapper-title h2 strong{
+.container-about div.wrapper-title h2 {
     background: linear-gradient(to bottom, #6A6CFF, #BD71FF);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    float: left;
 }
 .container-about div.wrapper-title h1{
     font-size: 2.5rem;
@@ -62,12 +65,22 @@
         padding:96px 2%;
     }
     .container-about div.wrapper-title h2 {
-        font-size: 6rem;
+        font-size: 14rem;
     }
     .container-about div.wrapper-title h1 {
         font-size: 1.5rem;
+        text-align: center;
     }
     .container-about div.wrapper-text p {
         font-size: 1rem;
+    }
+    .container-about div.wrapper-title h2{
+        position: absolute;
+        width: 100%;
+        top: -80%;
+        text-align: center;
+        background: linear-gradient(to bottom, #6a6cff, rgb(189 113 255 / 30%), rgb(189 113 255 / 5%), rgb(189 113 255 / 10%));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }

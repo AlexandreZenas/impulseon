@@ -6,7 +6,7 @@ export function About() {
             <div className='container-992px container-about'>
                 <div className='wrapper-title'>
                     <div>
-                        <h2><strong>Go</strong>.</h2>
+                        <h2>Go</h2>
                     </div>                    
                     <div>
                         <h1>Na <strong className='bold'>ImpulseOn <img src="images/risk-colored.png" alt="" ></img></strong> desafiamos os limites digitais do marketing, impulsionando negócios <strong className='gradient'>além das expectativas</strong></h1>
