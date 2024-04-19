@@ -8,6 +8,7 @@ import { CallToAction } from './call-to-action';
 import { Steps } from './steps';
 import { About } from './about';
 import { OurExperience } from './our-experience';
+import { Footer } from '../../components/footer';
 function Home() {
 
   return (
@@ -21,6 +22,7 @@ function Home() {
       <Steps></Steps>
       <OurExperience></OurExperience>
       <About></About>
+      <Footer></Footer>
     </main>
   )
 }

@@ -10,8 +10,13 @@ div.cards-banner{
     flex-wrap: wrap;
     position: relative;
 }
+div.cards-banner div,div.cards-banner img{
+    animation: start-cards 3s ease-out;
+
+}
 div.cards-banner:hover div,div.cards-banner:hover img{
     transform: translate3d(0%, 00%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
+    transition: 2s;
 }
 
 .cards-banner div.cards-up{
@@ -58,6 +63,21 @@ div.cards-banner:hover div,div.cards-banner:hover img{
 }
 .left-card img , .right-card img{
     width: 100%;
+}
+@keyframes start-cards {
+    0%{
+        opacity: 0;
+        transform: translate3d(0%, 00%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        
+        transform: translate3d(0%, 00%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
+    }
+    100%{
+    }
 }
 @media screen and (max-width: 660px) {
     div.cards-banner{

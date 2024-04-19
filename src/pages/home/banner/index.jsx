@@ -11,7 +11,7 @@ function Banner() {
             <div className='container-1140px banner-container'>
                 <div className='titles-banner'>
                     <div>
-                        <p>PROCURANDO UMA AGÊNCIA DIGITAL ?</p>
+                        <p>Procurando uma agência digital ?</p>
                     </div>
                     <div>
                         <h1>Somos a força que impulsiona sua visibilidade na internet</h1>

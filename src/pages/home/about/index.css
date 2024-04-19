@@ -8,13 +8,13 @@
     align-items: center;
 }
 .container-about div.wrapper-title{
-    display: flex;
-    justify-content: space-between;
+    padding: 0 2%;
 }
 .container-about div.wrapper-title h2{
     font-size: 9rem;
     color: #232323;
     margin: 0;
+    float: left;
 }
 .container-about div.wrapper-title h2 strong{
     background: linear-gradient(to bottom, #6A6CFF, #BD71FF);
@@ -22,9 +22,9 @@
     -webkit-text-fill-color: transparent;
 }
 .container-about div.wrapper-title h1{
-
     font-size: 2.5rem;
     font-weight: 500;
+    text-align: end;
     text-align: end;
 }
 .container-about div.wrapper-title h1 strong.bold{
@@ -55,18 +55,17 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container-about div.wrapper-title {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+
 }
 @media screen and (max-width: 540px) {
     #About  { 
         padding:96px 2%;
     }
+    .container-about div.wrapper-title h2 {
+        font-size: 6rem;
+    }
     .container-about div.wrapper-title h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .container-about div.wrapper-text p {
         font-size: 1rem;

@@ -35,13 +35,20 @@ section#Banner{
         div.titles-banner h1{
             font-size: 2.75rem;
             margin: 0;
-            font-weight: 600;
+            font-weight: 700;
+            color: rgba(200, 200, 200, 0.8);
         }
         div.titles-banner p{
             font-size: 1rem;
             font-weight:  200;
             /* line-height: 24px; */
             letter-spacing: 1px;
+            width: max-content;
+            padding: 2%;
+            background-color: rgba(200, 200, 200, 0.1);
+            border: 1px solid rgba(200, 200, 200, 0.2);
+            border-radius: 8px;
+            backdrop-filter:  blur(10000px);
         }
         @media screen and (max-width: 1024px) {
             section#Banner{
