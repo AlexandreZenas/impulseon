@@ -55,7 +55,7 @@ nav#Navbar{
 .navMenu{
     display: flex;
     gap: 32px;
-    font-weight: 100;
+    font-weight: 300;
     align-items: center;
     height: fit-content;
     width: fit-content;

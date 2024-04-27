@@ -5,8 +5,6 @@
     position: relative; 
     display: flex;
     align-items: center;
-    transform: translate3d(-5%, -6%, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg);   
-    transition: transform 1s ease;
 }
 .right-card > img{
     object-fit: cover;
@@ -17,6 +15,7 @@
     height: 100%;
     z-index: 1;
     backdrop-filter: blur(10px);
+    transition: 1s;
     width: 100%;
 }
     /* screenImage */

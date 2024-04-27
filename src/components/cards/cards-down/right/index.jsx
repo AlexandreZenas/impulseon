@@ -1,8 +1,7 @@
 import './index.css';
-
-export function CardRight(){
+export function CardRight({cardBotRight}){
     return(
-        <div className='right-card'>
+        <div className='right-card' ref={cardBotRight}>
             <div className='screenImage'>
                 <img className='screenImageImg' src='images/cards/cards-down/right/ScreenVector.svg' alt=''></img>
             </div>

@@ -5,19 +5,19 @@ export function Footer() {
         <footer id='Footer'>
             <div className='container-1140px container-footer'>
                 <div className='wrapper-span'>
-                    <span>Serviços</span>
-                    <span>Projetos</span>
-                    <span>Contato</span>
-                    <span>FAQ</span>
+                    <a href="/#Steps"><span>Serviços</span></a>
+                    <a href="/#Models"><span>Projetos</span></a>
+                    <a href="/https://wa.me/5521986465148"><span>Contato</span></a>
+                    <a><span>FAQ</span></a>
                 </div>
                 <div className='wrapper-logo'>
                     <h1>ImpulseOn</h1>
-                    <p>© Copyright 2024  ImpulseOn All Rights Reserved</p>
+                    <p>2024 © ImpulseOn. Todos os direitos reservados</p>
                 </div>
                 <div className='wrapper-socialMedias'>
-                    <img src="icons/footer/facebook-icon.svg" alt="" />
-                    <img src="icons/footer/instagram-icon.svg" alt="" />
-                    <img src="icons/footer/whatsapp-icon.svg" alt="" />
+                    <a href=""><img src="icons/footer/facebook-icon.svg" alt="" /></a>
+                    <a href="https://www.instagram.com/impulseonagency/"><img src="icons/footer/instagram-icon.svg" alt="" /></a>
+                    <a href="https://wa.me/5521986465148"><img src="icons/footer/whatsapp-icon.svg" alt="" /></a>
                 </div>
             </div>
         </footer>

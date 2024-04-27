@@ -1,6 +1,7 @@
 div.wrapper-buttonCta{
     background: linear-gradient(to bottom, #6A6CFF, #BD71FF);
     padding: 16px 32px;
+    border-radius: 8px;
 }
     div.wrapper-buttonCta a{
         font-weight: 300;

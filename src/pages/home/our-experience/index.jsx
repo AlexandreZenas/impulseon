@@ -20,7 +20,7 @@ export function OurExperience(){
                 </div>
                 <div className="wrapper-images">
                     <Swiper
-                        slidesPerView={2}
+                        slidesPerView={4}
                         spaceBetween={20}
                         loop={true}  
                         freeMode={true}

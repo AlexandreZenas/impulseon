@@ -20,6 +20,9 @@ footer#Footer{
     color: white;
     width: 30%;
 }
+.container-footer div.wrapper-span a{
+    text-decoration: none;
+}
 .container-footer div.wrapper-logo{
     display: flex;
     flex-direction: column;

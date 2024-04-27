@@ -10,14 +10,7 @@ div.cards-banner{
     flex-wrap: wrap;
     position: relative;
 }
-div.cards-banner div,div.cards-banner img{
-    animation: start-cards 3s ease-out;
 
-}
-div.cards-banner:hover div,div.cards-banner:hover img{
-    transform: translate3d(0%, 00%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
-    transition: 2s;
-}
 
 .cards-banner div.cards-up{
     width: 100%;
@@ -28,27 +21,20 @@ div.cards-banner:hover div,div.cards-banner:hover img{
         padding: 0 2%;
         width: 40%;
     }
-    .PageWebflowVector{
-        transform: translate3d(0%, 20%, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg); transform-style: preserve-3d;
-        transition: transform 1s ease;
-    }
-    .PageSectionVector{
-        transform: translate3d(0%, 12%, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg); transform-style: preserve-3d;
-        transition: transform 1s ease;
-    }
+
 .cards-banner div.cards-middle{
     padding-bottom: 1%;
     position: absolute;
     display: flex;
     justify-content: center;
     z-index: 1;    
-    transform: translate3d(0.00168px, 7px, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg); transform-style: preserve-3d;
-    transition: transform 1s ease;
 }
+
     div.cards-middle img{
         width: 90%;
         padding-right: 1%;
         backdrop-filter: blur(10px);
+        transition: 1s;
     }
 
 .cards-banner div.cards-down{
@@ -64,21 +50,7 @@ div.cards-banner:hover div,div.cards-banner:hover img{
 .left-card img , .right-card img{
     width: 100%;
 }
-@keyframes start-cards {
-    0%{
-        opacity: 0;
-        transform: translate3d(0%, 00%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
-    }
-    25%{
-        opacity: 1;
-    }
-    50%{
-        
-        transform: translate3d(0%, 00%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
-    }
-    100%{
-    }
-}
+/*  */
 @media screen and (max-width: 660px) {
     div.cards-banner{
         width: 90%;

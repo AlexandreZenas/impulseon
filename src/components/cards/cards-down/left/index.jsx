@@ -1,8 +1,8 @@
 import './index.css';
 
-export function CardLeft(){
+export function CardLeft({cardBotLeft}){
     return(
-        <div className='left-card'>
+        <div className='left-card' ref={cardBotLeft}>
             <div className='screenColor'>
                 <div className='Screen-Color'></div>
                 <div>

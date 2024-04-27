@@ -1,0 +1,47 @@
+div.cards-banner div,div.cards-banner img{
+    
+}
+.cards-banner div.cards-middle:hover{
+    
+}
+
+.cards-banner div.cards-middle{
+    animation: start-cards 1s ease-out backwards;
+    transition: transform 1s ease;
+}
+/* .cards-banner:hover div.cards-middle{transform: translate3d(0.00168px, 7px, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg); transform-style: preserve-3d;} */
+
+.PageWebflowVector{
+         transition: transform 1s ease;
+         animation: start-cards 1s ease-out backwards;         
+    }
+    /* .cards-banner:hover .PageWebflowVector{transform: translate3d(0%, 20%, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg); transform-style: preserve-3d;} */
+
+.PageSectionVector{
+     transition: transform 1s ease;
+     animation: start-cards 1s ease-out backwards;
+}
+/* .cards-banner:hover .PageSectionVector{transform: translate3d(0%, 12%, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg); transform-style: preserve-3d;} */
+
+.cards-down div.right-card{
+    transition: transform 1s ease; 
+    animation: start-cards 1s ease-out backwards;
+}
+/* .cards-banner:hover .cards-down div.right-card{transform: translate3d(-5%, -6%, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg);} */
+
+.cards-down div.left-card{
+    transition: transform 1s ease; 
+    animation: start-cards 1s ease-out backwards;
+}
+/* .cards-banner:hover .cards-down div.left-card{transform: translate3d(32%, -8%, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg);} */
+
+@keyframes start-cards {
+    0%{        
+        opacity: 0;
+        transform: translate3d(0.00168px, 7px, 0px) scale3d(1, 1, 1) rotateX(16deg) rotateY(-25deg) rotateZ(7deg) skew(0deg, 0deg); transform-style: preserve-3d;
+        transition: transform 1s ease;
+    }
+    100%{
+        opacity: 1;
+    }
+}
