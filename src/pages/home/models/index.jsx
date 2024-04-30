@@ -57,7 +57,7 @@ export function Models() {
         <div className='container-models' >
           <div className='wrapper-titles'>
             <h1 >Veja o que podemos fazer por você</h1>
-            <p>Fale com um especialista e escolha um modelo de site para o seu negócio</p>
+            <p>Fale com um especialista e escolha o modelo de site para seu negócio</p>
           </div>
             <div className='container-carousel' ref={carouselRef}>
               <div className='carousel' >

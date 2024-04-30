@@ -2,6 +2,12 @@ div.wrapper-buttonCta{
     background: linear-gradient(to bottom, #6A6CFF, #BD71FF);
     padding: 16px 32px;
     border-radius: 8px;
+    transition: .5s;
+}
+div.wrapper-buttonCta:hover{
+    background: rgba(47, 50, 253, 1);
+    cursor: pointer;
+    transition: .25s;
 }
     div.wrapper-buttonCta a{
         font-weight: 300;

@@ -13,7 +13,7 @@ export const serviceDados = [
     },
     {
         title: 'Uma equipe ao seu dispor',
-        text: "Em nossa consultoria juntos desenvolvemos estratégias eficazes e personalizadas identificando oportunidades até a execução de campanhas eficazes ",
+        text: "Em nossa consultoria, desenvolvemos estratégias eficazes e personalizadas, identificando oportunidades até a execução de campanhas eficazes.",
         link: 'QUERO UMA EQUIPE !',
         index: 3
     },

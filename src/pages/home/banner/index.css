@@ -67,11 +67,12 @@ section#Banner{
             div.banner-container{
                 flex-direction: column-reverse;
                 align-items: center;
-                margin-top: 35%;
+                margin-top: 30%;
                 margin-bottom: 10%;
             }
             .banner-container div.titles-banner {
                 max-width: 100%;
+                margin-top: 5%;
             }
             .banner-container div.titles-banner h1{
                 font-size: 2rem;

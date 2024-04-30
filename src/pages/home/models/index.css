@@ -66,10 +66,11 @@ div.wrapper-img img{
     object-fit: cover;
     object-position: top;
     border-radius: 24px;
+    transition: 2s;
 }    
 div.wrapper-img img:hover{
     object-position: bottom;
-    transition: 30s linear;
+    transition: 10s ease-in-out;
 }    
 @media screen and (max-width: 540px) {
     .wrapper-titles h1{

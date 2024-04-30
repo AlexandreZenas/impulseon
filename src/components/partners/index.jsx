@@ -13,12 +13,12 @@ export function Partners() {
 
     <div className="container-1140px container-partners">
         <Swiper
-          slidesPerView={2}
+          slidesPerView={4}
           spaceBetween={30}
           loop={true}  
           freeMode={true}
           breakpoints={{
-            640: {
+            0: {
               slidesPerView: 2,
               spaceBetween: 20,
             },
@@ -32,8 +32,7 @@ export function Partners() {
             },
           }}
           autoplay={{
-            delay: 1000,
-            disableOnInteraction: false                  
+            delay: 1000              
           }}
           modules={[Autoplay, FreeMode, Pagination, Navigation]}
           className="mySwiper"

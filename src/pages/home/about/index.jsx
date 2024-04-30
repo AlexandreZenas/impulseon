@@ -14,7 +14,7 @@ export function About() {
                 </div>
                 <div className='wrapper-text'>
                     <p>
-                    Fundada com uma visão audaciosa e uma paixão pelo digital, a <strong>ImpulseOn</strong> nasceu da união de mentes criativas determinadas a revolucionar o marketing online. Com estratégias inovadoras e uma equipe dedicada, transformando visões em realidade digital. Conecte-se conosco para uma jornada de crescimento e sucesso online. Sua marca merece o impulso certo - <strong>Impulse On, sua parceira digital.</strong>"
+                    Fundada com uma visão audaciosa e uma paixão pelo digital, a <strong>ImpulseOn</strong> nasceu da união de mentes criativas determinadas a revolucionar o marketing online. Com estratégias inovadoras e uma equipe dedicada transformando visões em realidade digital. Conecte-se conosco para uma jornada de crescimento e sucesso online. Sua marca merece o impulso certo - <strong>Impulse On, sua parceira digital.</strong>"
                     </p>
                 </div>
                 <ButtonCta></ButtonCta>

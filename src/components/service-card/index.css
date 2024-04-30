@@ -11,11 +11,11 @@
     opacity: 1;
 }
 .service-card2{
-    animation:slide-in-bottom 2s cubic-bezier(.25,.46,.45,.94) both;
+    animation:slide-in-bottom 1.5s cubic-bezier(.25,.46,.45,.94) both;
     opacity: 1;
 }
 .service-card3{
-    animation:slide-in-bottom 3s cubic-bezier(.25,.46,.45,.94) both;
+    animation:slide-in-bottom 2s cubic-bezier(.25,.46,.45,.94) both;
     opacity: 1;
 }
 
@@ -86,13 +86,13 @@ div.service-content div.wrapper-text p{
         width: 100%;
     }
     .service-card1{
-        animation:slide-in-bottom 1.5s cubic-bezier(.25,.46,.45,.94) both;
+        animation:slide-in-bottom 1s cubic-bezier(.25,.46,.45,.94) both;
     }
     .service-card2{
-        animation:slide-in-bottom 1.5s cubic-bezier(.25,.46,.45,.94) both;
+        animation:slide-in-bottom 1s cubic-bezier(.25,.46,.45,.94) both;
     }
     .service-card3{
-        animation:slide-in-bottom 1.5s cubic-bezier(.25,.46,.45,.94) both;
+        animation:slide-in-bottom 1s cubic-bezier(.25,.46,.45,.94) both;
     }
     @keyframes slide-in-bottom{
         0%{

@@ -11,7 +11,7 @@ export function OurExperience(){
         <section id='OurExperience'>
             <div className='container-992px container-ourExperience'>
                 <div className='wrapper-subtitle'>
-                    <h4>Nossa experiência refletetinfo no seu futuro.</h4>
+                    <h4>Nossa experiência refletindo no seu futuro.</h4>
                 </div>
                 <div className='wrapper-title'>
                     <h1>
@@ -25,7 +25,7 @@ export function OurExperience(){
                         loop={true}  
                         freeMode={true}
                         breakpoints={{
-                            640: {
+                            0: {
                               slidesPerView: 2,
                               spaceBetween: 20,
                             },

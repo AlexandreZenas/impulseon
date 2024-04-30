@@ -27,7 +27,7 @@ export function Steps() {
                 </div>
                 <div className='wrapper-texts'>
                   <h2>Briefing com o cliente</h2>
-                  <p>Nesta etapa, reunimos todas as informações sobre  sua empresa, seu perfil, seu projeto, seu público-alvo e seus concorrentes e levantamos os materiais para o design da marca.</p>
+                  <p>Nesta etapa, reunimos todas as informações sobre  sua empresa, seu perfil, seu projeto, seu público-alvo e seus concorrentes, e levantamos os materiais para o design da marca.</p>
                 </div>
               </div>
               <div className='steps-content'>
@@ -36,7 +36,7 @@ export function Steps() {
                 </div>
                 <div className='wrapper-texts'>
                   <h2>Desenvolvimento do projeto</h2>
-                  <p>Criamos efetivamente o projeto visual, levando em conta todas as informações coletadas até o momento. E após a aprovação do cliente, desenvolvemos o website.</p>
+                  <p>Criamos o projeto visual, levando em conta todas as informações coletadas até o momento. E após a aprovação do cliente, desenvolvemos o website.</p>
                 </div>
               </div>
               <div className='steps-content'>
