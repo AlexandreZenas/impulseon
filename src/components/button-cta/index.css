@@ -1,16 +1,14 @@
-div.wrapper-buttonCta{
-    background: linear-gradient(to bottom, #6A6CFF, #BD71FF);
-    padding: 16px 32px;
-    border-radius: 8px;
-    transition: .5s;
-}
-div.wrapper-buttonCta:hover{
-    background: rgba(47, 50, 253, 1);
-    cursor: pointer;
-    transition: .25s;
-}
     div.wrapper-buttonCta a{
+        background: linear-gradient(to bottom, #6A6CFF, #BD71FF);
+        padding: 16px 32px;
+        border-radius: 8px;
+        transition: .5s;
         font-weight: 300;
         letter-spacing: 2px;
         text-decoration: none;
+    }
+    div.wrapper-buttonCta a:hover{
+        background: rgba(47, 50, 253, 1);
+        cursor: pointer;
+        transition: .25s;
     }

@@ -30,7 +30,7 @@ nav#Navbar{
     border-radius: 24px;
     position: relative;  
     background: linear-gradient(to right,
-    rgba(47, 50, 253, 1),rgba(188, 112, 255, 0));
+    #6A6CFF,rgba(188, 112, 255, 0));
 }
 .container-navbar div.wrapper-logo div.On{
     position: absolute;

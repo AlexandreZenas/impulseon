@@ -9,6 +9,7 @@ import { Steps } from './steps';
 import { About } from './about';
 import { OurExperience } from './our-experience';
 import { Footer } from '../../components/footer';
+import { Bot } from '../../bot';
 function Home() {
 
   return (
@@ -23,6 +24,7 @@ function Home() {
       <OurExperience></OurExperience>
       <About></About>
       <Footer></Footer>
+      <Bot ></Bot>
     </main>
   )
 }
