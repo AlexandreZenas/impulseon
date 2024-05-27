@@ -28,7 +28,7 @@ export function  ServiceCard({title, text, link, index}) {
         <div className='service-content'>
             <div className='wrapper-title'><h2>{title}</h2></div>
             <div className='wrapper-text'><p>{text}</p></div>
-            <a href="https://wa.me/5521986465148" target='_blanc'>{link}<div></div> </a>
+            <a onclick="return gtag_report_conversion('https://wa.me/5521986465148');" href="https://wa.me/5521986465148" target='_blanc'>{link}<div></div> </a>
         </div>
     </div>
   )
