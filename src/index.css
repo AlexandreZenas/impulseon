@@ -49,4 +49,8 @@ p, a, h1, h2, h3, h4, h5{
   background: #555;
   border-radius: 10px;
 }
-
+strong.gradient{
+  background: linear-gradient(to bottom, #6A6CFF, #BD71FF);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

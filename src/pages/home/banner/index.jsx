@@ -12,10 +12,10 @@ function Banner() {
             <div className='container-1140px banner-container'>
                 <div className='titles-banner'>
                     <div>
-                        <p>Procurando uma agência digital ?</p>
+                        <h1>Quer aumentar seus <strong className='gradient'>clientes</strong> e ser o negócio mais conhecido <strong className='gradient'>em sua região</strong> ?</h1>
                     </div>
                     <div>
-                        <h1>Somos a força que impulsiona sua visibilidade na internet</h1>
+                        <p>Somos a agência certa para te ajudar !</p>
                     </div>
                     <ButtonCta></ButtonCta>
                 </div>
